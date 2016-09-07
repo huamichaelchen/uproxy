@@ -762,7 +762,7 @@ module.exports = function(grunt) {
     // of the (global) freedom object between the two environments.
     ts: {
       options: {
-        target: 'es5',
+        target: 'es6',
         comments: true,
         noImplicitAny: true,
         sourceMap: false,

@@ -1,6 +1,11 @@
 // common-grunt-rules
 
-/// <reference path='../../../third_party/typings/index.d.ts' />
+// Grunt doesn't understand ES6!
+// Including just this here is better than having
+// keeping the es6-promise typings around just
+// for this file which will hopefully disappear
+// soon anyway.
+/// <reference path='../../../third_party/typings/globals/node-4/index.d.ts' />
 
 import fs = require('fs');
 import path = require('path');
